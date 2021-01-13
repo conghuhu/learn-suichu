@@ -1,0 +1,86 @@
+{
+  "pages": [
+    "pages/home-page/home-page",
+    "pages/learn/learn",
+    "pages/social/social",
+    "pages/user/user",
+    "pages/learn/FS_clock",
+    "pages/blog/blog",
+    "pages/blog-comment/blog-comment"
+  ],
+  "subpackages": [
+    {
+      "root": "packageA",
+      "name": "pack1",
+      "pages": [
+        "pages/Text/Text"
+      ]
+    }, {
+      "root": "packageB",
+      "name": "pack2",
+      "pages": [
+        "pages/instruction/instruction",
+        "pages/computer/computer",
+        "pages/img7-xingguang/img7",
+        "pages/img1-faguang/img1",
+        "pages/img2-shenyuan/img2"
+      ]
+    },{
+      "root": "packageC",
+      "name": "pack3",
+      "pages": [
+        "pages/blog-history/blog-history"
+      ]
+    },{
+      "root": "packageD",
+      "name": "pack4",
+      "pages": [
+        "pages/aboutus/aboutus",
+        "pages/learn-time/learn-time",
+        "pages/test/test",
+        "pages/tabar/tabar"
+
+      ]
+    }
+  ],
+
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f2c512",
+    "navigationBarTitleText": "云端自习室",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "color": "",
+    "selectedColor": "#000000",
+    "backgroundColor": "#f5f5f4",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list":[
+      {
+        "pagePath": "pages/learn/learn",
+        "text": "学习",
+        "iconPath": "image/study-o.jpg",
+        "selectedIconPath": "image/learn.png"
+      },
+      {
+        "pagePath": "pages/social/social",
+        "text": "社区",
+        "iconPath": "image/social-o.jpg",
+        "selectedIconPath": "image/social.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "image/my.png",
+        "selectedIconPath": "image/my-o.png"
+      }
+    ]
+
+
+  },
+  "requiredBackgroundModes": ["audio", "location"],
+  "sitemapLocation": "sitemap.json"
+  
+  
+}

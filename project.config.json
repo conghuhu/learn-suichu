@@ -1,0 +1,163 @@
+{
+	"description": "项目配置文件",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"enhance": true,
+		"postcss": true,
+		"preloadBackgroundData": false,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"nodeModules": true,
+		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"uglifyFileName": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"compileHotReLoad": false,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		},
+		"useIsolateContext": true,
+		"useCompilerModule": true,
+		"userConfirmedUseCompilerModuleSwitch": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.11.3",
+	"appid": "wx49581b88485a0013",
+	"projectname": "Blue%20Wave",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"cloudfunctionTemplateRoot": "cloudfunctionTemplate",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": 0,
+					"name": "登陆",
+					"pathName": "pages/login/login",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "blog",
+					"pathName": "pages/blog/blog",
+					"query": "nickName= \"37.20 C\"& avatarUrl= \"https://wx.qlogo.cn/mmopen/vi_32/8v6OmEQArkiaiamqH…OVj5qn9xEpicxbhibKwM0V9A1qhVwYNW6cQvNlRdIiahA/132\"",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/user/user",
+					"pathName": "pages/user/user",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "关于我们",
+					"pathName": "pages/aboutus/aboutus",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "自习",
+					"pathName": "pages/learn/learn",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/setting/setting",
+					"pathName": "pages/setting/setting",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/learn-time/learn-time",
+					"pathName": "pages/learn-time/learn-time",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/learn/FS_clock",
+					"pathName": "pages/learn/FS_clock",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/learn/learn",
+					"pathName": "pages/learn/learn",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/instruction/instruction",
+					"pathName": "pages/instruction/instruction",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/blog-history/blog-history",
+					"pathName": "pages/blog-history/blog-history",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 12,
+					"name": "packageD/pages/test/test",
+					"pathName": "packageD/pages/test/test",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "tabar",
+					"pathName": "packageD/pages/tabar/tabar",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}
